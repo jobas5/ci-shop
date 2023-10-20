@@ -182,7 +182,7 @@ class Myorder extends MY_Controller
         $this->email->initialize($config);
         $this->email->set_newline("\r\n");
         $this->email->to($mailTo);
-        $this->email->from('sehatkuyfarmasi@gmail.com', 'Sehat Kuy Farmasi');
+        $this->email->from('jobass0309@gmail.com', 'Nakama Shop');
         $this->email->subject($subject);
         $this->email->message("Hai $name! terima kasih telah menggunakan aplikasi Sehatin. Pembelian anda telah berhasil diproses. Berikut adalah detail pembelian anda.");
         $this->email->attach($content, 'attachment', 'laporan.pdf', 'application/pdf');

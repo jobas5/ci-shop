@@ -9,7 +9,7 @@
     <div>
         <div class="col-md-12 text-center">
             <h3>Laporan Pembelian</h3>
-            <h3>Toko Alat Kesehatan</h3>
+            <h3>Nakama Shop</h3>
         </div>
         <div class="row mt-4 mx-auto w-50">
             <div class="text-left" style="split left">
@@ -55,7 +55,7 @@
                 <div style="text-align: right;">
                     <p>Surabaya, <?= date('d-m-Y') ?></p>
                     <hr style="margin-top:100px;border-width: thin;border-top-color: black;width: 200px;margin-bottom:0px;"></hr>
-                    <p>Sugeng Riyadi</p>
+                    <p>Nakama Shop</p>
                 </div>
             </div>
         </div>
